@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="sip_calculator">
+        <h1>Lumpsum calculator</h1>
+    </div>
+    <div class="outer-outer-container">
+        <div class="outer-container">
+            <div class="container">
+                <div class="sub-container monthly_investment">
+                    <div class="heading">
+                        <p>Total investment</p>
+                        <input id="monthly_investment_value" value="25000" type="text">
+                    </div>
+                </div>
+                <div class="sub-container expected_return">
+                    <div class="heading">
+                        <p>Expected return rate (%p.a)</p>
+                        <input id="expected_return_value" value="12" type="text">
+                    </div>
+                </div>
+                <div class="sub-container time_period">
+                    <div class="heading">
+                        <p>Time period (No of years)</p>
+                        <input id="time_period_value" value="10" type="text">
+                    </div>
+                </div>
+            </div>
+            <div class="result-container">
+                <div class="result invested-amount">
+                    <p>Invested amount</p>
+                    <p class="answer" id="invested-amount-result">25000</p>
+                </div>
+                <div class="result est-returns">
+                    <p>Est.returns</p>
+                    <p class="answer" id="est-returns-result">52646</p>
+                </div>
+                <div class="result total-value">
+                    <p>Total value</p>
+                    <p class="answer" id="total-value-result">77646</p>
+                </div>
+            </div>
+            <button>calculate</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
