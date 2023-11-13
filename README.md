@@ -7,7 +7,7 @@ This repository consists of basic javascript projects done by me Using HTML, CSS
 
 ## To run this project locally, follow these steps:
 
-1. Clone this repository to your local machine using `https://github.com/Pala-LakshmanSai/Basic-JavaScript-Projects.git`
+1. Clone this repository to your local machine using `git clone https://github.com/Pala-LakshmanSai/Basic-JavaScript-Projects.git`
 2. Navigate to the project directory.
 3. Open the index.html file in your web browser.
 
