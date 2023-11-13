@@ -1,7 +1,7 @@
 # Basic-JavaScript-Projects
 This repository consists of basic javascript projects done by me Using HTML, CSS, JS from the scratch
 
-##Projects
+## Projects
 1. Tip calculator
 2. Lumpsum calculator
 
