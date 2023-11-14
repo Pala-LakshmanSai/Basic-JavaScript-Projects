@@ -4,6 +4,8 @@ This repository consists of basic javascript projects done by me Using HTML, CSS
 ## Projects
 1. Tip calculator
 2. Lumpsum calculator
+3. Rock Paper Scissors game
+4. Random dog API
 
 ## To run this project locally, follow these steps:
 
